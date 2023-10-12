@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Number Guessing Game</title>
     <link rel="stylesheet" href="game.css">
-    <script src="scrpit.js" defer></script>
     <script src="https://kit.fontawesome.com/af25c5ca7f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +15,13 @@
     <div class="box">
           <h1 class="title">Guessing Game!</h1>
           <h2 class="subtitle">Guess a number between 1 and 25 to see if its correct</h2>
+          <h2 id="gamemessage"></h2>
         <div class="guess">
             <h2 class="guesstext">Guess</h2>
-            <input type="number">
+            <input type="number" id="input">
             <br>
-            <button>Submit</button>
-            <button><i class="fa-solid fa-rotate-right"></i></button>
+            <button id="submit">Submit</button>
+            <button id="restart" onclick="restartGameAlert()"><i class="fa-solid fa-rotate-right"></i></button>
         </div>
         <div class="version">
             <p>Version: 1.0</p>
@@ -29,6 +29,6 @@
             <p>Copyright: Avi Bansal 2023</p>
         </div>  
     </div>
-  
+    <script src="scrpit.js" defer></script>
 </body>
 </html>

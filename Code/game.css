@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     background-color: #e6ccb2;
     text-align: center;
+    border-radius: 1rem;
     
 }
 
@@ -48,4 +49,11 @@ button {
 p {
     font-size: small;
     font-family: cursive;
+}
+
+button {
+    background: #ddb892;
+    color: white;
+    border-radius: 1rem;
+    border: none;
 }
