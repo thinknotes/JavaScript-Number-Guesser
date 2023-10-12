@@ -27,11 +27,11 @@ body {
 
 .guesstext {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 18.75rem;
 }
 
 button {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .version {
