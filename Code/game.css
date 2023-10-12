@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica;
+    background-color: aliceblue;
+}
+
+
+.box {
+    width: 70%;
+    height: 90vh;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    background-color: #e6ccb2;
+    text-align: center;
+    
+}
+
+.title {
+    text-align: center;
+    padding: 2rem;
+}
+
+.subtitle {
+     text-align: center;
+     font-size: medium;
+}
+
+.guesstext {
+    text-align: center;
+    margin-top: 300px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.version {
+    float: left;
+    margin: 2rem ;
+    margin-top: 15%;
+    text-align: left;
+    
+}
+
+.fa-heart {
+    color: red;
+}
+
+p {
+    font-size: small;
+    font-family: cursive;
+}
